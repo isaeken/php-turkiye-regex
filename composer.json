@@ -1,0 +1,42 @@
+{
+    "name": "isaeken/php-turkiye-regex",
+    "description": "PHP icin Turkiye Regex kutuphanesi",
+    "license": "MIT",
+    "type": "library",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Isa Eken",
+            "email": "hello@isaeken.com.tr",
+            "homepage": "https://isaeken.com.tr",
+            "role": "Founder"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.45",
+        "spatie/regex": "^2.0",
+        "isaeken/php-tc-kimlik": "^1.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.3",
+        "phpunit/phpunit": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "IsaEken\\TurkiyeRegex\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "IsaEken\\TurkiyeRegex\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
