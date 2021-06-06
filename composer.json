@@ -1,5 +1,6 @@
 {
     "name": "isaeken/php-turkiye-regex",
+    "version": "v1.0",
     "description": "PHP icin Turkiye Regex kutuphanesi",
     "license": "MIT",
     "type": "library",
